@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:visibility="invisible">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:drawableLeft="@drawable/exclamation"
+        android:text="@string/failedloading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_retry" />
+
+        <Button
+            android:id="@+id/openStacktrace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_stacktrace" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/stacktrace"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.92"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:visibility="invisible">
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>	

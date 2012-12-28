@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ImageView 
+        android:contentDescription="@string/header"
+        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a12820"
+        android:src="@drawable/column_header" />
+        
+	    <TextView
+	        android:id="@+id/column_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+
+	        android:textColor="#FFFFFF"
+	        android:textSize="21dp"
+	        android:textStyle="bold"
+	        android:paddingTop="10dp"
+	        android:paddingLeft="5dp"
+	        >
+	    </TextView>
+    </FrameLayout>
+        
+    <ScrollView
+        android:id="@+id/scrollColumnText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+	    <TextView
+	        android:id="@+id/column_message"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:singleLine="false"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+	        android:paddingBottom="15dp"
+	        >
+	    </TextView>
+	</ScrollView>
+</LinearLayout>

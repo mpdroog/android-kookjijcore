@@ -1,0 +1,105 @@
+<resources>
+    <string name="ad_url">http://android.kookjij.mobi/cgi-bin/googleads.cgi</string>
+    
+    <string name="app_loading">Bezig met openen…</string>
+    <string name="menu_settings">Settings</string>
+    <string name="header">Header background</string>
+    <string name="content_logo">Logo picture</string>
+    
+    <string name="tab_category">Categorieën</string>
+    <string name="tab_recipie_day">Recept v/d dag</string>
+    <string name="tab_recipy">Recept</string>
+    
+    <string name="menu_item_search_action_hint">Zoekterm</string>
+    <string name="menu_item_search_action_menu_text">Search</string>    
+
+    <string name="loading_image">Ophalen van afbeelding..</string>
+    <string name="dialoghide">Sluit scherm</string>
+    <string name="dialogerror">Fout bij ophalen</string>
+    <string name="dialogsuccess">Ingezoomde afbeelding</string>
+    <string name="dialog_nopicture">Geen afbeelding om weer te geven</string>
+
+    <string name="loading">Ophalen van artikel</string>
+    <string name="loading_slow">Loading from server</string>
+    <string name="failedloading">Helaas, er ging iets verkeerd tijdens het ophalen van de website.</string>
+    <string name="errorimage">Errorimage</string>
+    <string name="button_retry">Probeer opnieuw</string>
+    <string name="button_stacktrace">Toon oorzaak</string>
+    <string name="product_preview">product preview</string>
+    <string name="button_download_stop">Stop ophalen</string>
+    <string name="stopped_download">Downloaden geannuleerd</string>
+    <string name="recipie_picture">Recipie picture</string>
+
+    <string name="recipie_ingredients">Ingrediënten</string>
+    <string name="recipie_preparation">Bereiding</string>
+    <string name="recipie_comment">Opmerking</string>
+
+    <string name="category_empty">Er zijn geen recepten in deze categorie.</string>
+    
+    <string-array name="categories">
+        <item>Bijgerechten</item>
+        <item>Dranken</item>
+        <item>Hapjes</item>
+        <item>Hoofdgerechten</item>
+        <item>Nagerechten</item>
+        <item>Sauzen en dressings</item>
+        <item>Soepen</item>
+        <item>Speciale gelegenheden</item>
+        <item>Voorgerechten</item>
+    </string-array>
+    
+    <string-array name="category0">
+        <item>Groenten</item>
+        <item>Salades</item>
+        <item>Vlees</item>
+    </string-array>
+    <string-array name="category1">
+        <item>Exotisch</item>
+        <item>Koud</item>
+        <item>Warm</item>
+    </string-array>
+    <string-array name="category2">
+        <item>Amuse</item>
+        <item>Koud</item>
+        <item>Warm</item>
+    </string-array>
+    <string-array name="category3">
+        <item>Gevogelte</item>
+        <item>Vegetarisch</item>
+        <item>Vis, schaal en scheldieren</item>
+        <item>Vlees</item>
+        <item>Wild</item>
+       </string-array>
+    <string-array name="category4">
+        <item>Koud</item>
+        <item>Warm</item>
+    </string-array>
+    <string-array name="category5">
+        <item>Koud</item>
+        <item>Warm</item>
+    </string-array>
+    <string-array name="category6">
+        <item>Koud</item>
+        <item>Groenten</item>
+        <item>Vis</item>
+        <item>Vlees</item>
+    </string-array>
+    <string-array name="category7">
+        <item>Kerst</item>
+    </string-array>
+    <string-array name="category8">
+        <item>Koud</item>
+        <item>Warm</item>
+    </string-array>
+    
+	<string name="check_license">Controleer licentie</string>
+	<string name="checking_license">Bezig met licentie controleren&#8230;</string>
+	<string name="dont_allow">Weiger de gebruikersactie</string>
+	<string name="allow">Sta de gebruikersactie toe</string>
+	<string name="application_error">Applicatie error: %1$s</string>
+	<!-- Unlicensed dialog messages -->
+	<string name="unlicensed_dialog_title">Programma niet gekocht</string>
+	<string name="unlicensed_dialog_body">Deze applicatie is niet aangeschaft. Gelieve mij te kopen in Google Play.</string>
+	<string name="buy_button">Koop mij</string>
+	<string name="quit_button">Stop mij</string>
+</resources>
